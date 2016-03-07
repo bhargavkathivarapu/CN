@@ -2,7 +2,7 @@ TSS
 
 compilation
 g++ server.c -o TSS 
-g++ s1.c -o s1
+g++ s1.c -lpthread -o s1
 g++ client.c -o cli
 
 running
